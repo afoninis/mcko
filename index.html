@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест на интеллект</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="notification">
+      <p class="notification__text">right</p>
+    </div>
+    <div class="main-menu">
+      <div class="menu">
+        <ul class="menu__items">
+          <li class="menu__item play">
+            <p class="menu__item-text">Play</p>
+          </li>
+          <li class="menu__item settings">
+            <p class="menu__item-text">Settings</p>
+          </li>
+          <li class="menu__item contacts">
+            <p class="menu__item-text">Contacts</p>
+          </li>
+        </ul>
+      </div>
+      <div class="levels"></div>
+    </div>
+    <div class="hints"></div>
+    <div class="play-scene">
+      <div class="play-scene__score-wrapper">
+        <p class="play-scene__score">0</p>
+      </div>
+      <button class="play-scene__back-btn">
+        <img src="./assets/images/play-scene-back.png" alt="Вернуться назад" />
+      </button>
+
+      <div class="play-window">
+        <div class="play-window__question">
+          <h2 class="play-window__title"></h2>
+        </div>
+        <ul class="play-window__answers">
+          <li class="play-window__answer">
+            <button class="play-window__text"></button>
+          </li>
+          <li class="play-window__answer">
+            <button class="play-window__text"></button>
+          </li>
+          <li class="play-window__answer">
+            <button class="play-window__text"></button>
+          </li>
+          <li class="play-window__answer">
+            <button class="play-window__text"></button>
+          </li>
+        </ul>
+      </div>
+
+      <p class="play-scene__streak">x0</p>
+    </div>
+
+    <audio
+      src="./assets/audio/AViVA - IN TOO DEEP (Official Video).mp3"
+      loop
+      id="music-player"
+    ></audio>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
